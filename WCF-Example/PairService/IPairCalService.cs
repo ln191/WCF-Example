@@ -5,11 +5,11 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
 
-namespace WCF_Example
+namespace PairService
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IPairArihmeticService" in both code and config file together.
+    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IPairCalService" in both code and config file together.
     [ServiceContract]
-    public interface IPairArihmeticService
+    public interface IPairCalService
     {
         [OperationContract]
         Pair Add(Pair p1, Pair p2);
